@@ -41,6 +41,8 @@ jobs:
           # ^ If you want to use a specific version of flutter
       
       # Fetches proj dependencies from pub
+      - name: flutter clean
+        run: flutter clean
       - name: Install dependencies
         run: flutter packages pub get
         # ^ If you want to use a specific version of flutter
