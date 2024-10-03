@@ -42,7 +42,7 @@ jobs:
       
       # Fetches proj dependencies from pub
       - name: Install dependencies
-        run: flutter pub get com.financist.every_penny
+        run: flutter packages pub get
         # ^ If you want to use a specific version of flutter
       
       # Verifies if the dart code is formatted well
